@@ -10,6 +10,9 @@
 
     <title>Frontend Mentor | Product preview card component</title>
     <link href="CSS\index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fraunces" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
         .attribution {
@@ -29,17 +32,23 @@
 
         </section>
         <section class="text-content">
-            <h4 class="preview-head">Preview</h4>
+            <h4 class="preview-head">PERFUME</h4>
             <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
-            <p clas="product-desc">
-                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL
+            <p class="product-desc">
+                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
             </p>
             <div class="price">
                 <span class="dis-price">$149.99</span>
-                <span class="dis-price">$169.99</span>
+                <span class="og-price">$169.99</span>
             </div>
             <div class="cart">
-                <input type="button" value="Add to Cart">
+                <button class="button-cart">
+                    <span>
+                        <i class='fa fa-shopping-cart fa-lg' style='color: white'></i>
+                    </span>
+                    <span class="add-cart"> Add to Cart
+                        
+                    </span></button>
             </div>
         </section>
     </main>
